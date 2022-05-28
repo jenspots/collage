@@ -11,6 +11,7 @@
 		B4FC7102284295D9004924B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FC7101284295D9004924B0 /* ContentView.swift */; };
 		B4FC7104284295DB004924B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4FC7103284295DB004924B0 /* Assets.xcassets */; };
 		B4FC7107284295DB004924B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4FC7106284295DB004924B0 /* Preview Assets.xcassets */; };
+		B4FC711328429F6F004924B0 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FC711228429F6F004924B0 /* Grid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		B4FC7103284295DB004924B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4FC7106284295DB004924B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B4FC7108284295DB004924B0 /* Collage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Collage.entitlements; sourceTree = "<group>"; };
+		B4FC711228429F6F004924B0 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +54,12 @@
 		B4FC70FE284295D9004924B0 /* Collage */ = {
 			isa = PBXGroup;
 			children = (
-				B4FC70FF284295D9004924B0 /* CollageApp.swift */,
-				B4FC7101284295D9004924B0 /* ContentView.swift */,
+				B4FC7105284295DB004924B0 /* Preview Content */,
+				B4FC711128429F62004924B0 /* Views */,
 				B4FC7103284295DB004924B0 /* Assets.xcassets */,
 				B4FC7108284295DB004924B0 /* Collage.entitlements */,
-				B4FC7105284295DB004924B0 /* Preview Content */,
+				B4FC70FF284295D9004924B0 /* CollageApp.swift */,
+				B4FC7101284295D9004924B0 /* ContentView.swift */,
 			);
 			path = Collage;
 			sourceTree = "<group>";
@@ -67,6 +70,14 @@
 				B4FC7106284295DB004924B0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4FC711128429F62004924B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4FC711228429F6F004924B0 /* Grid.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4FC711328429F6F004924B0 /* Grid.swift in Sources */,
 				B4FC7102284295D9004924B0 /* ContentView.swift in Sources */,
 				B4FC7100284295D9004924B0 /* CollageApp.swift in Sources */,
 			);
